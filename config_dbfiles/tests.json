@@ -1,0 +1,15 @@
+{
+   "Test01":{
+      "test_name":"QE Demo csv",
+      "s1_type":"csv",
+      "s1_suffix":"s1",
+      "s1_query":"",
+      "s1_headers_present":"yes",
+      "s1_delimiter":",",
+      "s2_type":"csv",
+      "s2_suffix":"s2",
+      "s2_query":"",
+      "s2_headers_present":"yes",
+      "s2_delimiter":","
+   }
+}

@@ -1,0 +1,72 @@
+DataComPy Comparison
+--------------------
+
+DataFrame Summary
+-----------------
+
+  DataFrame  Columns  Rows
+0  Original        6     7
+1       New        6     6
+
+Column Summary
+--------------
+
+Number of columns in common: 6
+Number of columns in Original but not in New: 0
+Number of columns in New but not in Original: 0
+
+Row Summary
+-----------
+
+Matched on: index
+Any duplicates on match values: No
+Absolute Tolerance: 0
+Relative Tolerance: 0
+Number of rows in common: 6
+Number of rows in Original but not in New: 1
+Number of rows in New but not in Original: 0
+
+Number of rows with some compared columns unequal: 1
+Number of rows with all compared columns equal: 5
+
+Column Comparison
+-----------------
+
+Number of columns compared with some values unequal: 5
+Number of columns compared with all values equal: 1
+Total number of values which compare unequal: 5
+
+Columns with Unequal Values or Types
+------------------------------------
+
+    Column Original dtype New dtype  # Unequal  Max Diff  # Null Diff
+2  address         object    object          1       0.0            0
+0      age          int64     int64          1      25.0            0
+4    email         object    object          1       0.0            0
+3   gender         object    object          1       0.0            0
+1     name         object    object          1       0.0            0
+
+Sample Rows with Unequal Values
+-------------------------------
+
+   age (Original)  age (New)
+4              55       80.0
+
+  name (Original) name (New)
+4            AAAE       AAAG
+
+     address (Original)         address (New)
+4  27, asdassdas,adaads  29, asdassdas,adaads
+
+  gender (Original) gender (New)
+4                 F            A
+
+  email (Original)  email (New)
+4      abg@abc.com  abi@abc.com
+
+Sample Rows Only in Original (First 10 Columns)
+-----------------------------------------------
+
+    id  name               address        email  age gender
+6  7.0  AAAG  29, asdassdas,adaads  abi@abc.com   80      A
+

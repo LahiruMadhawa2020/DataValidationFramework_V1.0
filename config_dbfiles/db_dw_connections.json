@@ -1,0 +1,27 @@
+{
+  "netezza" : {
+    "database" : "WOL_USAGE",
+    "server" : "car-lnasdwp-001.wiley.com",
+    "user" :"BMIS_ETL_SELECT_USR",
+    "passwd" :"BMIS_ETL_SELECT_USR"
+  },
+  "snowflake": {
+    "role" : "DAI_DEVELOPER",
+    "account" : "hj05563.us-east-1",
+    "user" :"ibinduhewa",
+    "passwd" :"2wsx#EDC@"
+  },
+  "mysql": {
+    "host": "eaap-oltp-db.dev.dai.wiley.com",
+    "user": "dai_dbo",
+    "passwd": "Machine_2Learn"
+  },
+  "oracle": {
+  },
+  "sqlserver": {
+
+  },
+  "other": {
+
+  }
+}
